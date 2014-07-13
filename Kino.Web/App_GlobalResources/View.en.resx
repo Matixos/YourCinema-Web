@@ -1,0 +1,287 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Account_ChangePassword_Ok" xml:space="preserve">
+    <value>Change Password</value>
+  </data>
+  <data name="Logged_User" xml:space="preserve">
+    <value>Logged as</value>
+    <comment>Zalogowany jako</comment>
+  </data>
+  <data name="Log_In" xml:space="preserve">
+    <value>Log In</value>
+    <comment>Zaloguj</comment>
+  </data>
+  <data name="Log_Out" xml:space="preserve">
+    <value>Log Out</value>
+    <comment>Wyloguj</comment>
+  </data>
+  <data name="Master_MainSite" xml:space="preserve">
+    <value>Main Site</value>
+    <comment>Strona Główna</comment>
+  </data>
+  <data name="Master_Repertoire" xml:space="preserve">
+    <value>Repertoire</value>
+    <comment>Repertuar</comment>
+  </data>
+  <data name="Log_AdminPanel" xml:space="preserve">
+    <value>Administration Panel</value>
+    <comment>Panel Administracyjny</comment>
+  </data>
+  <data name="Main_Error" xml:space="preserve">
+    <value>Sorry, an error occurred while processing your request.</value>
+    <comment>Przepraszamy, wystąpił nieoczekiwany błąd podczas przetwarzania zapytania.</comment>
+  </data>
+  <data name="Main_ErrorTitle" xml:space="preserve">
+    <value>Error</value>
+    <comment>Błąd</comment>
+  </data>
+  <data name="Main_Hello" xml:space="preserve">
+    <value>Welcome on "Widz" cinema site.</value>
+    <comment>Witaj na stronie kina "Widz".</comment>
+  </data>
+  <data name="Main_Invitation" xml:space="preserve">
+    <value>We invite you to our cinema!</value>
+    <comment>Zapraszamy na nasze filmy!</comment>
+  </data>
+  <data name="Master_Contact" xml:space="preserve">
+    <value>Contact</value>
+    <comment>Kontakt</comment>
+  </data>
+  <data name="Master_Films" xml:space="preserve">
+    <value>Films</value>
+    <comment>Filmy</comment>
+  </data>
+  <data name="Master_Footer" xml:space="preserve">
+    <value>2013 Site created for PO Laboratory</value>
+    <comment>2013 Strona stworzona na Laboratoria PSW</comment>
+  </data>
+  <data name="Master_Promotion" xml:space="preserve">
+    <value>Promotions</value>
+    <comment>Promocje</comment>
+  </data>
+  <data name="Register_AccountInfo" xml:space="preserve">
+    <value>Account Information</value>
+    <comment>Informacje o koncie</comment>
+  </data>
+  <data name="Register_CreateNewAccount" xml:space="preserve">
+    <value>Create New Account</value>
+    <comment>Utwórz nowe konto</comment>
+  </data>
+  <data name="Register_FormHelpTip" xml:space="preserve">
+    <value>Use the form below to create a new account.</value>
+    <comment>Użyj poniższego formularza do utworzenia nowego konta </comment>
+  </data>
+  <data name="Register_MinPasswordChar_Part1" xml:space="preserve">
+    <value>Passwords are required to be a minimum of</value>
+    <comment>Hasło musi mieć minimum</comment>
+  </data>
+  <data name="Register_MinPasswordChar_Part2" xml:space="preserve">
+    <value>characters in length.</value>
+    <comment>znaki.</comment>
+  </data>
+  <data name="Register_RegistrationError" xml:space="preserve">
+    <value>Account creation was unsuccessful. Please correct the errors and try again.</value>
+    <comment>Tworzenie konta zakończone niepowodzeniem. Popraw błędy i spróbuj jeszcze raz.</comment>
+  </data>
+  <data name="Register_ClearButton" xml:space="preserve">
+    <value>Clear</value>
+    <comment>Wyczyść</comment>
+  </data>
+  <data name="Register_RegButton" xml:space="preserve">
+    <value>Register</value>
+    <comment>Rejestruj</comment>
+  </data>
+  <data name="Register_RequiredFields" xml:space="preserve">
+    <value>* required fields</value>
+    <comment>* obowiązkowe</comment>
+  </data>
+  <data name="LogOn_AccountInfo" xml:space="preserve">
+    <value>Account Information</value>
+    <comment>Informacje o koncie</comment>
+  </data>
+  <data name="LogOn_Error" xml:space="preserve">
+    <value>Login was unsuccessful. Please correct the errors and try again.</value>
+    <comment>Logowanie nieudane. Popraw błędy i spróbuj ponownie.</comment>
+  </data>
+  <data name="LogOn_RegisterLabel" xml:space="preserve">
+    <value>register</value>
+    <comment>zarejestruj się</comment>
+  </data>
+  <data name="LogOn_TooltipPart1" xml:space="preserve">
+    <value>Type your Pesel and password or</value>
+    <comment>Poniżej wpisz swój nick oraz hasło, lub</comment>
+  </data>
+  <data name="LogOn_TooltipPart2" xml:space="preserve">
+    <value>if you don't have an account.</value>
+    <comment>jeśli jeszcze nie masz konta.</comment>
+  </data>
+  <data name="Register_ConfirmationLabel" xml:space="preserve">
+    <value>Register Confirmation</value>
+    <comment>Postwierdzenie rejestracji</comment>
+  </data>
+  <data name="Register_ConfirmationPart1" xml:space="preserve">
+    <value>Registration process was successful.</value>
+    <comment>Proces rejestracji przebiegł pomyślnie.</comment>
+  </data>
+  <data name="Register_ConfirmationPart2" xml:space="preserve">
+    <value>Check your email - we sent you an activation code</value>
+    <comment>Sprawdź swój email - został na niego wysłany link aktywacyjny</comment>
+  </data>
+  <data name="LogOn_MainLabel" xml:space="preserve">
+    <value>Logging</value>
+    <comment>Logowanie</comment>
+  </data>
+  <data name="LogOn_ForgottenPassLabel" xml:space="preserve">
+    <value>Forgotten Password</value>
+    <comment>Zapomniałem hasła</comment>
+  </data>
+  <data name="Repertoire_Date" xml:space="preserve">
+    <value>Choose date</value>
+    <comment>Wybierz datę</comment>
+  </data>
+  <data name="Repertoire_ChooseDate" xml:space="preserve">
+    <value>Choose date</value>
+    <comment>Wybierz datę</comment>
+  </data>
+  <data name="Repertoire_MainLabel" xml:space="preserve">
+    <value>Repertoire</value>
+    <comment>Repertuar</comment>
+  </data>
+  <data name="Repertoire_ReservationSuccess" xml:space="preserve">
+    <value>Reservation successful</value>
+    <comment>Rezerwacja udana</comment>
+  </data>
+  <data name="Admin_FilmsList" xml:space="preserve">
+    <value>Films List</value>
+    <comment>Lista Filmów</comment>
+  </data>
+  <data name="Admin_Panel" xml:space="preserve">
+    <value>Administration Panel</value>
+    <comment>Panel Administracyjny</comment>
+  </data>
+  <data name="Admin_RoomsList" xml:space="preserve">
+    <value>Rooms List</value>
+    <comment>Lista Sal</comment>
+  </data>
+  <data name="Admin_UsersList" xml:space="preserve">
+    <value>Users List</value>
+    <comment>Lista Użytkowników</comment>
+  </data>
+</root>

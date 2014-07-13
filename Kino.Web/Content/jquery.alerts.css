@@ -1,0 +1,56 @@
+#popup_container {
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	min-width: 300px; /* Dialog will be no smaller than this */
+	max-width: 600px; /* Dialog will wrap after this width */
+	background: #f4efec;
+	border: solid 1px #c8c6c3 ;
+	color: #696969;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+#popup_title {
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 1.75em;
+	color: #696969;
+	text-transform: uppercase;
+	background: url(/Content/themes/images/title_backgrounds_left.png) no-repeat left, url(/Content/themes/images/title_backgrounds_right.png) no-repeat right, url(/Content/themes/images/title_backgrounds_center.png) repeat-x left;
+	cursor: default;
+	padding: 0em;
+	margin: 3px;
+}
+
+#popup_content {
+	background: inherit;
+	padding: 1em 1.75em;
+	margin: 0em;
+}
+
+#popup_message 
+{
+	text-align: center;
+}
+
+#popup_panel {
+	text-align: center;
+	margin: 1em 0em 0em 1em;
+}
+
+#popup_prompt {
+	margin: .5em 0em;
+}
+
+#popup_ok
+{
+    background: url(/Content/themes/images/button_orange_left.png) no-repeat left, url(/Content/themes/images/button_orange_right.png) no-repeat right, url(/Content/themes/images/button_orange_center.png) repeat-x left;
+    width: 60px;
+}
+#popup_cancel
+{
+    background: url(/Content/themes/images/button_blue_left.png) no-repeat left, url(/Content/themes/images/button_blue_right.png) no-repeat right, url(/Content/themes/images/button_blue_center.png) repeat-x left;
+    width: 60px;
+}

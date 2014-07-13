@@ -1,0 +1,99 @@
+#ui-datepicker-div
+{
+    background-color: #faf9f7;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    color: #696969;
+    padding: 3px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+.ui-datepicker-header
+{
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.ui-datepicker-title
+{
+    background-color: blue;
+    color: #ffffff;
+    width: 215px;
+    font-weight: bold;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.ui-datepicker-calendar
+{
+    background-color: inherit;
+    border-color: #faf9f7;
+    border-collapse: separate;
+}
+
+.ui-datepicker-calendar thead
+{
+    background-color: inherit;
+    color: #000000;
+}
+
+.ui-datepicker-calendar thead tr th
+{
+    border-color: #faf9f7;
+    border-width: 2px;
+    width: 16px;
+    height: 14px;
+}
+.ui-datepicker-calendar tbody
+{
+    background-color: inherit;
+}
+
+.ui-datepicker-calendar tbody tr td
+{
+    background-color: #E6E6E6;
+    width: 16px;
+    height: 14px;
+    border: solid 1px #c8c6c3;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+}
+
+div#ui-datepicker-div.ui-datepicker table.ui-datepicker-calendar tbody tr td.ui-datepicker-other-month
+{
+    background-color: inherit;
+    width: 16px;
+    height: 14px;
+    border: none;
+}
+
+.ui-datepicker-calendar tbody tr td a
+{
+    background-color: inherit;
+    border: none;
+}
+
+.ui-datepicker-prev
+{
+    background: transparent url(/Content/themes/images/pointer_up.png) no-repeat center left;
+    float: left;
+}
+.ui-datepicker-next
+{
+    background: transparent url(/Content/themes/images/pointer_down.png) no-repeat center right;
+    float: right;
+}
+
+html body div#ui-datepicker-div.ui-datepicker div.ui-datepicker-header a.ui-datepicker-prev span.ui-icon
+{
+    visibility: hidden;
+}
+html body div#ui-datepicker-div.ui-datepicker div.ui-datepicker-header a.ui-datepicker-next span.ui-icon
+{
+    visibility: hidden;
+}

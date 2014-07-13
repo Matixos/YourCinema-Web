@@ -1,0 +1,408 @@
+﻿/*----------------------------------------------------------
+The base color for this template is #5c87b2. If you'd like
+to use a different color start by replacing all instances of
+#5c87b2 with your new color.
+----------------------------------------------------------*/
+body {
+   background-image: url(themes/images/bg.png);
+   background-attachment: fixed;
+}
+
+hr {
+	height: 3px;
+	color: white;
+	margin-right: 10px;
+}
+
+a:link {
+    color: #034af3;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #505abc;
+}
+
+a:hover {
+    color: #1d60ff;
+    text-decoration: none;
+}
+
+a:active {
+    color: #12eb87;
+}
+
+p, ul {
+    margin-bottom: 20px;
+    line-height: 1.6em;
+}
+
+p.center {
+    text-align: center;
+}
+
+header,
+footer,
+nav,
+section {
+    display: block;
+}
+
+input[type="text"].date-picker
+{
+    width: 113px;
+    margin-right: 5px;
+    display: inline;
+    font-size: 12px;
+}
+
+/* HEADINGS   
+----------------------------------------------------------*/
+h2, h3, h4, h5, h6 {
+    color: white;
+    font-size: 1.5em;
+}
+
+h1 {
+	text-align: center;
+	font-size: 36px;
+}
+
+h2 {
+    padding: 0 0 10px 0;
+}
+
+h3 {
+    font-size: 1.2em;
+}
+
+h4 {
+    font-size: 1.1em;
+}
+
+h5, h6 {
+    font-size: 1em;
+}
+
+/* PRIMARY LAYOUT ELEMENTS   
+----------------------------------------------------------*/
+
+#shadow {
+	background-color: rgba(0,0,0,0.65); 
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#A5000000,endColorstr=#A5000000); /* for IE */
+	width: 960px;
+	margin: 0 auto;
+	padding: 20px;
+	
+	-moz-border-radius: 30px;  
+	-webkit-border-radius: 30px; 
+	border-radius: 30px;
+}
+
+#top {
+	height: 140px;
+	color: black;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-image: url(themes/images/main.jpg);	
+	background-repeat: no-repeat;
+	background-position: center;
+	border-color: white;
+	border-width: 13px;
+	border-style: groove;
+}
+
+#main {
+	text-align: center;
+	padding-top: 45px;
+	font-size: 48px;
+	font-weight: bolder;
+}
+
+#topmenu {
+	height: 40px;
+	width: 912px;
+	text-align: center;
+	border-color: white;
+	border-width: 9px;
+	border-style: groove;
+}
+
+#content {
+	background: -moz-linear-gradient(top center, #015391 15%, #015391 50%, #000000 90%);
+	background: -webkit-gradient(linear, center top, center bottom,                      
+                color-stop(15%, #015391), color-stop(50%, #015391),
+                color-stop(90%, #000000));                                
+    background: linear-gradient(to bottom, #015391 15%, #015391 50%, #000000 90%);   
+ 
+	width: 930px;
+	min-height: 900px;
+	font-size: 28px;
+	color: white;
+	margin: 0 auto;
+	
+	border-color: white;
+	border-width: 3px;
+	border-style: groove;
+}
+
+#page {
+	font-size: 14px;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+footer {
+	background-color: rgba(0,0,0,0.65); 
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#A5000000,endColorstr=#A5000000); /* for IE */
+	width: 990px;
+	margin: 0 auto;
+	padding: 4px;
+	height: 20px;
+	text-align: center;
+	color: white;
+	font-family: serif;
+	margin-top: 10px;
+	
+	-moz-border-radius: 30px; 
+	-webkit-border-radius: 30px; 
+	border-radius: 30px;
+}
+
+#logbar {
+	background-color: rgba(0,0,0,0.65); 
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#A5000000,endColorstr=#A5000000); /* for IE */
+	width: 940px;
+	margin: 0 auto;
+	padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+	height: 30px;
+	text-align: left;
+	color: white;
+	font-family: serif;
+	margin-bottom: 10px;
+	
+	-moz-border-radius: 30px; 
+	-webkit-border-radius: 30px; 
+	border-radius: 30px;
+}
+
+#lang {
+    float: right;
+}
+
+/* FORM LAYOUT ELEMENTS   
+----------------------------------------------------------*/
+
+fieldset {
+    width: 700px;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    padding: 1.4em 1.4em 1.4em 1.4em;
+    margin: 0 0 1.5em 0;
+}
+
+legend {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+textarea {
+    min-height: 75px;
+}
+
+input[type="text"], 
+input[type="password"] {
+    border: 1px solid #ccc;
+    padding: 2px;
+    font-size: 1.2em;
+    color: #444;
+    width: 200px;
+}
+
+select {
+    border: 1px solid #ccc;
+    padding: 2px;
+    font-size: 1.2em;
+    color: #444;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    font-size: 1.2em;
+    padding: 5px;
+    width: 150px;
+}
+
+/* Table
+----------------------------------------------------------*/
+
+td.textbox {
+    padding-left: 20px;
+}
+
+td.rightLabel {
+    padding-left: 40px;
+}
+
+.center {
+    margin-top: 30px;
+    margin-left: 80px;
+}
+
+table.grid-table
+{
+    text-align: center;
+    margin: 5px 0;
+    border-width: 1px;
+    border-color: inherit;
+    table-layout: fixed;
+    overflow:hidden;
+    width: 100%;
+}
+
+table.grid-table td
+{
+    text-overflow:ellipsis;
+    overflow:hidden;
+    white-space:nowrap;
+}
+
+table.grid-table tr th a
+{
+    background-color: transparent;
+    color: black;
+}
+
+table.grid-table tr th
+{
+    text-align: center;
+    background-color: inherit;
+}
+
+table.grid-table thead
+{
+    background: url(/Content/themes/images/grid_header.png) repeat-x left;
+}
+
+table.grid-table tbody tr.gridrow_alternate
+{
+    background-color: #7c0f0f;
+}
+
+table.grid-table th.sort_asc
+{
+    background: transparent url('../Content/themes/images/pointer_down.png') no-repeat scroll right center;
+}
+
+table.grid-table th.sort_desc
+{
+    background: transparent url('../Content/themes/images/pointer_up.png') no-repeat scroll right center;
+}
+
+/*  Pager  
+---------------------------------------------------------*/
+
+div.grid-pager 
+{
+    text-align: right;
+    margin-top: 10px;
+}
+
+span.pager-current-page
+{
+    color: #aaa29d;
+    font-weight:bold;
+}
+
+/* MISC  
+----------------------------------------------------------*/
+.clear {
+    clear: both;
+}
+
+.error {
+    color: Red;
+}
+
+div#title {
+    display: block;
+    float: left;
+    text-align: left;
+}
+
+#logindisplay {
+    font-size: 1.1em;
+    display: block;
+    text-align: right;
+    margin: 10px;
+    color: White;
+}
+
+#logindisplay a:link {
+    color: white;
+    text-decoration: underline;
+}
+
+#logindisplay a:visited {
+    color: white;
+    text-decoration: underline;
+}
+
+#logindisplay a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+/* Styles for validation helpers
+-----------------------------------------------------------*/
+.field-validation-error {
+    color: #ff0000;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+.input-validation-error {
+    border: 1px solid #ff0000;
+    background-color: #ffeeee;
+}
+
+.validation-summary-errors {
+    font-weight: bold;
+    color: #ff0000;
+}
+
+.validation-summary-valid {
+    display: none;
+}
+
+/* Styles for editor and display helpers
+----------------------------------------------------------*/
+.text-box {
+    width: 30em;
+}
+
+.text-box.multi-line {
+    height: 6.5em;
+}
+
+.tri-state {
+    width: 6em;
+}
+
+/*  Buttons
+----------------------------------------------------------*/
+
+.type-1-small:link {
+    color: #000000;
+    background-color: #ffffff;
+    width: 120px;
+    padding: 2px;
+    padding-left: 7px;
+    padding-right: 7px;
+    text-decoration: none;
+    margin-right: 20px;
+}
